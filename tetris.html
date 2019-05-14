@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tetris</title>
+    <style>
+        body {
+            background-color: #777;
+        }
+        #score {
+            font-family: Verdana, sans-serif;
+            font-size: 1.5em;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        #divCanvas {
+            width: 420px;
+            margin: 0 auto;
+        }
+        canvas {
+            border: 5px solid #999;
+            height: 70vh;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="divCanvas">
+        <div id="score"></div>
+        <canvas id="tetris" width="240" height="400"></canvas> 
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
